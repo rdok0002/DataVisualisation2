@@ -1,0 +1,154 @@
+#Container {
+	border: 3px solid rgb(178, 233, 240);
+	background-color:rgba(173, 223, 223, 0.87);
+	margin: auto;
+}
+#Container2 {
+	border: 3px solid rgb(178, 233, 240);
+	background-color:rgba(173, 223, 223, 0.87);
+}
+
+#containerE {
+	width: 80%;
+	margin: auto;
+}
+
+#pad {
+	padding-top: 125px;
+}
+
+h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 60px;
+}
+
+h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 30px;
+}
+
+h3 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 23px;
+	padding-top: 1%;
+}
+
+p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+}
+
+#p0 {
+	width: 30%;
+	padding-left: 5%;
+	padding-top: 1%;
+	text-indent: 40px;
+}
+
+#p1 {
+	width: 400px;
+	padding-bottom: 5%;
+	text-indent: 40px;
+}
+
+#p2 {
+	width: 30%;
+	text-indent: 40px;
+	padding-left: 5%;
+}
+
+#p3 {
+	width: 30%;
+	text-indent: 40px;
+	float: right;
+	padding-top: 7%;
+	padding-right: 5%;
+}
+
+#p4 {
+	width: 40%;
+	text-indent: 40px;
+	padding-left: 3.5%;
+	float: left;
+}
+
+#p4-1 {
+	width: 40%;
+	text-indent: 40px;
+	padding-right: 3.5%;
+	float: right;
+	text-align: right;
+}
+
+#p5 {
+	width: 30%;
+	text-indent: 40px;
+	float: right;
+	padding-right: 5%;
+}
+
+#link {
+	font-size: 17px;
+}
+
+#Map {
+	width: 93%;
+	padding: 4%;
+}
+
+#globalPlasticsProduction {
+	width: 50%;
+	padding: 50px;
+	padding-bottom: 12%;
+}
+
+#percentageOfMismanagedPlasticWaste {
+	width: 100%;
+	padding: 5%;
+}
+
+#HWastePC{
+	padding: 4%;
+	width: 60%;
+}
+
+#LWastePC {
+	padding: 4%;
+	width: 60%;
+}
+
+#background {
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden;
+	background-image: url("https://www.innovationnewsnetwork.com/wp-content/uploads/2020/05/microplastics-in-the-ocean.jpg");
+	background-color: #cccccc;
+	background-attachment: fixed;
+}
+
+#space {
+	width: 100%;
+	height: 200px;
+}
+
+#scroll {
+	width: 10%;
+	margin-left: auto;
+	display: block;
+	background-color: transparent;
+	padding-right: 6.5%;
+}
+
+#img1 {
+	width: 30%;
+	padding-right: 5%;
+	padding-top: 6%;
+	float: right;
+}
+
+#p2Container {
+	padding: 5%;
+	height: 300px;
+	border: 3px solid rgb(178, 233, 240);
+	background-color:rgba(173, 223, 223, 0.87);
+}

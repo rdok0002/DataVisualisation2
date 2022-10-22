@@ -1,0 +1,50 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {"url": "data/mismanaged-waste-global-total.csv"},
+  "params": [
+    {
+      "name": "top",
+      "value": 5,
+      "bind": {
+        "input": "range",
+        "min": 1,
+        "max": 20,
+        "step": 1,
+        "name": "Select Range: "
+      }
+    }
+  ],
+  "transform": [{"window": [{"op": "rank","as": "rank"}]},
+  {"filter":"datum.rank <= top"}],
+  "width": "container",
+  "layer": [{
+    "mark": {"type": "arc", "innerRadius": 300, "stroke": "#fff"}
+  },{
+    "mark": {"type": "text", "radiusOffset": 310},
+    "encoding": {
+      "text": {"field": "EntityDtop20", "type": "ordinal"}
+    }
+    
+  }],
+  "encoding": {
+    "theta": {"field": "Mismanaged waste (% global total)Dtop20", "type": "quantitative", "stack": true},
+    "radius": {"field":"Mismanaged waste (% global total)Dtop20", "scale": {"type": "sqrt", "zero": true, "rangeMin": 1}},
+    "color": {"field": "EntityDtop20", "type": "nominal", "legend": null},
+    "tooltip": [
+      {"field": "Mismanaged waste (% global total)Dtop20",
+      "type": "quantitative",
+      "title": "Mismanaged waste (% global total)"}
+    ]
+  },
+  "config": {
+    "padding": 20,
+    "view": {"stroke": "transparent"},
+    "background": null,
+    "axis": {
+      "labelFont": "Helvetica",
+      "labelFontSize": 15,
+      "titleFontSize": 15
+    },
+    "font": "Helvetica"
+  }
+}

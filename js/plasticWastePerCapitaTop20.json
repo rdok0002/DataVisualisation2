@@ -1,0 +1,70 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {"url": "data/plastic-waste-per-capita.csv"},
+  "vconcat": [
+    {
+      "transform": [{"sort": [{"field": "CountryDtop20", "order":"descending"}],"window": [{"op": "rank","as": "rank"}]},
+      {"filter": {"param": "brush"}}],
+      "width": "container",
+      "layer": [{
+        "mark": {"type": "arc", "innerRadius": 200, "stroke": "#fff"}
+      },{
+        "mark": {"type": "text", "radiusOffset": 260},
+        "encoding": {
+          "text": {"field": "CountryDtop20", "type": "nominal"}
+        }
+      }],
+      "encoding": {
+        "theta": {"field": "Per capita plastic waste (kg/person/day)Dtop20", "sort":{"field":"Mismanaged waste (% global total)", "op": "average", "order":"ascending"}, "type": "quantitative", "stack": true},
+        "radius": {"field":"Per capita plastic waste (kg/person/day)Dtop20", "sort":{"field":"Mismanaged waste (% global total)", "op": "average", "order":"ascending"}, "scale": {"type": "sqrt", "zero": true, "rangeMin": 5}},
+        "color": {"scale": {"domain":"unaggregated", "range": ["#2B70A7", "#BF1E2E", "#006838", "#2A3890", "#381E32", "#7B5231", "#F453AD", "#662D91", "#F15A2B", "#648282", "#3D3D56", "#47B39C", "#0CA0AE", "#BC5090", "#58508D", "#824B4B", "#7D1B16", "#003F5C", "#377B2B",  "#4E322F", "#C94D6D"]},"field": "CountryDtop20", "sort":{"field":"Per capita plastic waste (kg/person/day)Dtop20", "op": "average", "order":"ascending"}, "type": "nominal", "legend": null},
+        
+        "tooltip": [
+          {"field": "Per capita plastic waste (kg/person/day)Dtop20",
+          "type": "quantitative",
+          "title": "Per capita plastic waste (kg/person/day)"}
+        ]
+      }
+    },{
+    "width": "container",
+    "mark": "bar",
+    "params": [{
+      "name": "brush", 
+      "select": 
+      {"type": "interval", "encodings": ["x"]}
+    }],
+    "transform": [
+      {
+        "window": [{
+          "op": "rank",
+          "as": "rank"
+        }],
+        "sort": [{ "field": "Per capita plastic waste (kg/person/day)Dtop20", "order": "descending" }]
+      }, {
+        "filter": "datum.rank <= 20"
+      }
+    ],
+    "encoding": {
+      "x": {
+        "field": "CountryDtop20",
+        "type": "nominal",
+        "axis": {"title": ""},
+        "sort": {"field": "Per capita plastic waste (kg/person/day)Dtop20", "op": "average", "order":"descending"}
+      },
+      "y": {"aggregate": "mean", 
+      "axis": {"title": "Per capita plastic waste (kg/person/day)"}, "field": "Per capita plastic waste (kg/person/day)Dtop20", 
+      "type": "quantitative"},
+      "color": {"value": "#191970"}
+    }}
+  ],
+  "config": {
+    "view": {"stroke": "transparent"},
+    "background": null,
+    "axis": {
+      "labelFont": "Helvetica",
+      "labelFontSize": 15,
+      "titleFontSize": 15
+    },
+    "font": "Helvetica"
+  }
+}

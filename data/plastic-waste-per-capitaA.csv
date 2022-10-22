@@ -1,0 +1,187 @@
+Country,Code,Year,Per capita plastic waste (kg/person/day)
+India,IND,2010,0.01
+Mozambique,MOZ,2010,0.015
+Madagascar,MDG,2010,0.016
+Tanzania,TZA,2010,0.023
+Brunei,BRN,2010,0.026
+Kenya,KEN,2010,0.027
+Guinea,GIN,2010,0.03
+Bangladesh,BGD,2010,0.034
+Jamaica,JAM,2010,0.034
+Ghana,GHA,2010,0.04
+Sierra Leone,SLE,2010,0.041
+Romania,ROU,2010,0.042
+Benin,BEN,2010,0.043
+Democratic Republic of Congo,COD,2010,0.045
+Eritrea,ERI,2010,0.045
+Mauritania,MRT,2010,0.045
+Cameroon,CMR,2010,0.046
+Denmark,DNK,2010,0.047
+Gambia,GMB,2010,0.048
+Sweden,SWE,2010,0.048
+Gabon,GAB,2010,0.054
+Guinea-Bissau,GNB,2010,0.054
+North Korea,PRK,2010,0.054
+Somalia,SOM,2010,0.054
+Indonesia,IDN,2010,0.057
+Togo,TGO,2010,0.057
+Angola,AGO,2010,0.062
+Palestine,PSE,2010,0.063
+Cape Verde,CPV,2010,0.065
+Cambodia,KHM,2010,0.066
+Georgia,GEO,2010,0.068
+Albania,ALB,2010,0.069
+Congo,COG,2010,0.069
+Morocco,MAR,2010,0.073
+Myanmar,MMR,2010,0.075
+Philippines,PHL,2010,0.075
+Belgium,BEL,2010,0.08
+Liberia,LBR,2010,0.084
+Oman,OMN,2010,0.084
+Mexico,MEX,2010,0.087
+Cuba,CUB,2010,0.089
+Haiti,HTI,2010,0.09
+Canada,CAN,2010,0.093
+Lebanon,LBN,2010,0.094
+Poland,POL,2010,0.097
+Cote d'Ivoire,CIV,2010,0.103
+Djibouti,DJI,2010,0.103
+Iraq,IRQ,2010,0.103
+Kiribati,KIR,2010,0.103
+Micronesia (country),FSM,2010,0.103
+Nigeria,NGA,2010,0.103
+Norfolk Island,NFK,2010,0.103
+Pakistan,PAK,2010,0.103
+Papua New Guinea,PNG,2010,0.103
+Samoa,WSM,2010,0.103
+Sao Tome and Principe,STP,2010,0.103
+Senegal,SEN,2010,0.103
+Solomon Islands,SLB,2010,0.103
+Sudan,SDN,2010,0.103
+Tokelau,TKL,2010,0.103
+Ukraine,UKR,2010,0.103
+Vietnam,VNM,2010,0.103
+Yemen,YEM,2010,0.103
+Australia,AUS,2010,0.112
+Russia,RUS,2010,0.112
+South Korea,KOR,2010,0.112
+Chile,CHL,2010,0.119
+China,CHN,2010,0.121
+Latvia,LVA,2010,0.124
+Bahrain,BHR,2010,0.132
+Lithuania,LTU,2010,0.132
+Italy,ITA,2010,0.134
+Nicaragua,NIC,2010,0.143
+Algeria,DZA,2010,0.144
+Bosnia and Herzegovina,BIH,2010,0.144
+Colombia,COL,2010,0.144
+Cook Islands,COK,2010,0.144
+Dominican Republic,DOM,2010,0.144
+Equatorial Guinea,GNQ,2010,0.144
+French Guiana,GUF,2010,0.144
+Guadeloupe,GLP,2010,0.144
+Iran,IRN,2010,0.144
+Jordan,JOR,2010,0.144
+Libya,LBY,2010,0.144
+Montenegro,MNE,2010,0.144
+Montserrat,MSR,2010,0.144
+Namibia,NAM,2010,0.144
+Nauru,NRU,2010,0.144
+Palau,PLW,2010,0.144
+Peru,PER,2010,0.144
+Reunion,REU,2010,0.144
+Saint Helena,SHN,2010,0.144
+Thailand,THA,2010,0.144
+Tunisia,TUN,2010,0.144
+Tuvalu,TUV,2010,0.144
+Panama,PAN,2010,0.145
+Slovenia,SVN,2010,0.145
+Ecuador,ECU,2010,0.147
+El Salvador,SLV,2010,0.147
+Dominica,DMA,2010,0.149
+Bulgaria,BGR,2010,0.154
+Saudi Arabia,SAU,2010,0.156
+Qatar,QAT,2010,0.16
+Suriname,SUR,2010,0.163
+Brazil,BRA,2010,0.165
+Japan,JPN,2010,0.171
+Belize,BLZ,2010,0.172
+Estonia,EST,2010,0.176
+Egypt,EGY,2010,0.178
+Syria,SYR,2010,0.178
+Argentina,ARG,2010,0.183
+Fiji,FJI,2010,0.189
+Honduras,HND,2010,0.189
+France,FRA,2010,0.192
+Marshall Islands,MHL,2010,0.192
+Singapore,SGP,2010,0.194
+Malaysia,MYS,2010,0.198
+United Arab Emirates,ARE,2010,0.199
+Greece,GRC,2010,0.2
+Comoros,COM,2010,0.201
+Turkey,TUR,2010,0.212
+Malta,MLT,2010,0.214
+United Kingdom,GBR,2010,0.215
+Saint Vincent and the Grenadines,VCT,2010,0.221
+Tonga,TON,2010,0.223
+Mauritius,MUS,2010,0.23
+Finland,FIN,2010,0.234
+South Africa,ZAF,2010,0.24
+Cyprus,CYP,2010,0.248
+Anguilla,AIA,2010,0.252
+Aruba,ABW,2010,0.252
+Bermuda,BMU,2010,0.252
+British Virgin Islands,VGB,2010,0.252
+Cayman Islands,CYM,2010,0.252
+Channel Islands,OWID_CIS,2010,0.252
+Christmas Island,CXR,2010,0.252
+Cocos Islands,CCK,2010,0.252
+Croatia,HRV,2010,0.252
+Curacao,CUW,2010,0.252
+Faeroe Islands,FRO,2010,0.252
+Falkland Islands,FLK,2010,0.252
+French Polynesia,PYF,2010,0.252
+Gibraltar,GIB,2010,0.252
+Greenland,GRL,2010,0.252
+Guam,GUM,2010,0.252
+Guernsey,GGY,2010,0.252
+Martinique,MTQ,2010,0.252
+Monaco,MCO,2010,0.252
+Netherlands Antilles,ANT,2010,0.252
+New Caledonia,NCL,2010,0.252
+Niue,NIU,2010,0.252
+Northern Mariana Islands,MNP,2010,0.252
+Puerto Rico,PRI,2010,0.252
+Saint Pierre and Miquelon,SPM,2010,0.252
+Sint Maarten (Dutch part),SXM,2010,0.252
+Taiwan,TWN,2010,0.252
+Turks and Caicos Islands,TCA,2010,0.252
+Uruguay,URY,2010,0.252
+Venezuela,VEN,2010,0.252
+Costa Rica,CRI,2010,0.258
+Portugal,PRT,2010,0.265
+Spain,ESP,2010,0.277
+Guatemala,GTM,2010,0.28
+Norway,NOR,2010,0.28
+Iceland,ISL,2010,0.281
+Trinidad and Tobago,TTO,2010,0.29
+Vanuatu,VUT,2010,0.295
+Israel,ISR,2010,0.297
+Maldives,MDV,2010,0.322
+Grenada,GRD,2010,0.325
+New Zealand,NZL,2010,0.331
+United States,USA,2010,0.335
+Sri Lanka,LKA,2010,0.357
+Seychelles,SYC,2010,0.358
+Macao,MAC,2010,0.368
+Bahamas,BHS,2010,0.39
+Hong Kong,HKG,2010,0.398
+Netherlands,NLD,2010,0.424
+Ireland,IRL,2010,0.43
+Germany,DEU,2010,0.485
+Saint Lucia,LCA,2010,0.522
+Barbados,BRB,2010,0.57
+Guyana,GUY,2010,0.586
+Saint Kitts and Nevis,KNA,2010,0.654
+Antigua and Barbuda,ATG,2010,0.66
+Kuwait,KWT,2010,0.686
