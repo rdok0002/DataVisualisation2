@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <!-- Import Vega & Vega-Lite (does not have to be from CDN) -->
+  <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
+  
+  
+  <!-- CSS file -->
+  <link rel="stylesheet" type="text/css" href="css/styles.css" media="all">
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/3520/3520812.png">
+
+  <title>
+    Polution
+  </title>
+  
+</head>
+<body id="background">
+
+  <div id="containerE">
+    <div id="pad">
+      <h1>
+        Our Impact on the World
+      </h1>
+      <h3 style="padding-left: 1%">
+        The Effects of Plastic Polution
+      </h3>
+      <p id="p1">
+        We are effecting our environment and our sea life. 
+        Creatures that did not ask for such a world but have to deal with the consiquences of our faults.
+      </p>
+      <p id="scroll">
+        Scroll Down
+        <img src="https://raw.githubusercontent.com/rdok0002/DataVisualisation2/main/data/arrowDown.png" style="padding-left: 22%; padding-bottom: 400px; width: 25%;"><!-- downloaded from http://www.stickpng.com/img/icons-logos-emojis/arrows/down-arrow-->
+      </p>
+    </div>
+
+    <div id="Container">
+      <p id="p3">
+        The world is relying more and more on plastics. As evident in this graph, we can see an exponential 
+        increase in the amount of plastics produced, this can mean drastic impacts on the environment and the 
+        health of people as well. This sudden increase in plastics over the last 50 years has played a dramatic 
+        role in human health, with the introduction of BPA free products, studies showed that the toxic effects 
+        were minimised but not completely eradicated. <br> <br>Studies in 2015 have shown that the increased use 
+        of plastics in our kitchens and general life have contributed to the consumption of up to 5 grams of micro 
+        plastics a week, which is the equivalent of a credit card a week. The consumed micro plastics have negative 
+        effects in the long term, which includes the gradual decrease in male reproduction and sperm quality, making 
+        them a potential hazard to reproductive success. This decrease in male reproduction directly correlates with 
+        the graph of the global plastics production. <br> <br>
+        Select an area on the lower bar chart to filter the top bar chart.
+      </p>
+      <h3 style="padding-top: 25px;">
+        Global Plastics Production (million tonnes) 
+      </h3>
+      <div id="globalPlasticsProduction">
+        <script id="globalPlasticsProduction" type="text/javascript">
+    
+          var spec3 = "js/globalPlasticsProduction.vg.json";
+          vegaEmbed('#globalPlasticsProduction', spec3).then(function(result) {
+            // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+          }).catch(console.error);
+        </script>
+      </div>
+    </div>
+
+    <div id="space"></div>
+
+    <div id="Container">
+      <img id="img1" src="https://scitechdaily.com/images/Microplastic-on-Finger.jpg">
+      <h3 style="padding-top: 2%;">
+        What are Micro-Plastics?
+      </h3>
+      <p id="p2">
+        Microplastics are plastic debris pieces that are smaller than five millimeters in size. 
+        They can be found in most habitats on Earth as well as in the digestive tracts of many 
+        marine organisms and sea birds. 
+        This is alarming us to take action. 
+      </p>
+      <p id="p0">
+        The map below shows the amount of micro-plastics found within this area, over the years.
+        The bar graph below can be used as a filter or the map.
+        Try it out by selecting an area on the graph.
+        Use the Zoom scale to zoom in and out of a particular area, 
+        select the area from the drop down menu.
+      </p>
+      <h3 style="padding-top: 2%;">
+        Micro-Plastics Found (km&sup2)
+      </h3>
+      <div id="Map">
+        <script id="Map" type="text/javascript">
+    
+          var spec2 = "js/symbol_map.vg.json";
+          vegaEmbed('#Map', spec2).then(function(result) {
+            // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+          }).catch(console.error);
+        </script>
+      </div>
+    </div>
+
+    <div id="space"></div>
+
+    <div id="Container2">
+      <h3 style="padding-top: 25px;">
+        Percentage of Mismanaged Plastic Waste by Each Country
+      </h3>
+      <p id="p4">
+        The largest contributers to the problem the world faces are the countries below.
+        The easiest way to improve is to work on the countries that have the highest impact.
+      </p>
+      <p id="p4-1">
+        Use the slider below the pie chart to compare 1-20 countries at a time. 
+      </p>
+      <div id="percentageOfMismanagedPlasticWaste">
+        <script id="percentageOfMismanagedPlasticWaste" type="text/javascript">
+    
+          var spec3 = "js/mismanagedWasteGlobalTotal.json";
+          vegaEmbed('#percentageOfMismanagedPlasticWaste', spec3).then(function(result) {
+            // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+          }).catch(console.error);
+        </script>
+      </div>
+    </div>
+
+    <div id="space"></div>
+
+    <div id="Container">
+      <h3 style="padding-top: 25px;">
+        Countries With the Highest Plastic Waste Per Capita
+      </h3>
+      <div id="HWastePC">
+        <script id="HWastePC" type="text/javascript">
+    
+          var spec3 = "js/plasticWastePerCapitaTop20.json";
+          vegaEmbed('#HWastePC', spec3).then(function(result) {
+            // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+          }).catch(console.error);
+        </script>
+      </div>
+      <div id="p5">
+        <br><br><br><br>
+        <p style="text-indent: 40px;">
+          Comparing plastic waste per capita (kg/person/day) is a better way to distinguish which countries are doing the most damage.
+          When comparing the percentage of plastic waste by country, the country's size and population often impacts its wastage. 
+          A larger country might have more plastic waste but their per capita waste is more fair.
+        </p>
+        <br><br><br>
+        <h3>Countries with the highest plastic waste per capita</h3>
+        <p style="text-indent: 40px;">
+          Kuwait, Antigua & Barbuda and Saint Kitts & Nevis are some of the worst plastic producers 
+          on the planet when population and size are taken out of the equation. The graph also seams 
+          to taper off and steadies it self the further it goes, meaning that most of those countries 
+          produce around the same amount of waste per capita.
+        </p>
+        <p>
+          Use the bar graph to filter through the range of countries you would like to compare.
+        </p>
+      </div>
+    </div>
+
+    <div id="space"></div>
+
+    <div id="Container">
+      <h3 style="padding-top: 25px;">
+        Countries With the Lowest Plastic Waste Per Capita
+      </h3>
+      <div id="LWastePC">
+        <script id="LWastePC" type="text/javascript">
+    
+          var spec3 = "js/plasticWastePerCapitaBot20.json";
+          vegaEmbed('#LWastePC', spec3).then(function(result) {
+            // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+          }).catch(console.error);
+        </script>
+      </div>
+      <p id="p5">
+        India has one of the largest percentage of plastic waste in the world but it has the lowest plastic waste per capita (kg/person/day).
+        This shows that the plastic waste per capita (kg/person/day) is a better way to see which countries need to make a change.
+        Most of these countries are doing something, we should learn from them. <br>
+        <br style="text-indent: 40px;"> 
+        To find more ways to improve the environment and reduce our plastic waste, visit the websites below.
+        <br><br>
+        <a id="link" href="https://www.dolphinresearch.org.au/plastic-pollution/">Dolphin Research</a>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        <a id="link" style="text-align: right;" href="https://act.greenpeace.org.au/plastics?&campaignid=13072218863&adgroupid=131442364788&adid=524456651258&gclid=Cj0KCQjw48OaBhDWARIsAMd966Dgx7nkqBrWgSNBKcuSqhxmGMYhP9kDpT35s598qlu12chPe1BTtMoaAgzoEALw_wcB&gclsrc=aw.ds">Green Peace</a> <br> <br>
+        <a id="link" href="https://classroomofhope.org/block-schools/?gclid=Cj0KCQjw48OaBhDWARIsAMd966CXx7d-R0EONz5VBnc1nfcpoF1J9u50LllJEZl0IyfY67Kiy4QzwpAaAntNEALw_wcB">Classroom of Hope</a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+        <a id="link" href="https://www.greenfleet.com.au/news/5-practical-ways-reduce-your-carbon-footprint?gclid=Cj0KCQjw48OaBhDWARIsAMd966Bl8YJZHp9j74MTg9tVsM33AcVaSgwwiFuCNuEEOeuP7KlcJ8-jenMaArEwEALw_wcB">Green Fleet</a> <br><br>
+      
+      </p>
+      
+    </div>
+
+    <div id="space"></div>
+
+  </div>
+
+</body>
+</html>
